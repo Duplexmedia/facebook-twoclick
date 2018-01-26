@@ -20,9 +20,8 @@
     height: 10px;
     padding: 0;
     line-height: 10px;
-    border: 2px solid #FFFFFF;
     border-radius: 10px;
-    transition: background-color 0.3s ease-in;
+    transition: background-color 0.3s ease-in-out;
     background-color: #666766;
 }
 
@@ -34,12 +33,12 @@
     margin: 0;
     background: #FFFFFF;
     position: absolute;
-    top: 0;
+    top: -2px;
     bottom: 0;
     right: 8px;
     border: 2px solid #42A5F5;
     border-radius: 10px;
-    transition: all 0.3s ease-in 0s;
+    transition: all 0.3s ease-in-out;
 }
 
 .onoffswitch-checkbox:checked + .onoffswitch-label {
@@ -48,7 +47,7 @@
 }
 
 .onoffswitch-checkbox:checked + .onoffswitch-label:before {
-    right: 0px;
+    right: 0;
 }
 
 .like-dummy {
